@@ -1,4 +1,4 @@
-package quanlylop;
+package com.example.smartbook.people;
 
 public class Users {
     private int userId;

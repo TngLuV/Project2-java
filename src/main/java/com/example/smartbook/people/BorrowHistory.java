@@ -1,4 +1,4 @@
-package quanlylop;
+package com.example.smartbook.people;
 
 public class BorrowHistory {
     private int borrowId;

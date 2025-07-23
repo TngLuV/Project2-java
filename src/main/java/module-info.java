@@ -10,7 +10,12 @@ module com.example.smartbook {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires java.sql;
 
     opens com.example.smartbook to javafx.fxml;
     exports com.example.smartbook;
+    exports com.example.smartbook.book;
+    opens com.example.smartbook.book to javafx.fxml;
+    exports com.example.smartbook.people;
+    opens com.example.smartbook.people to javafx.fxml;
 }

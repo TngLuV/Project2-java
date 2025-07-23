@@ -1,4 +1,4 @@
-package quanlylop;
+package com.example.smartbook.book;
 
 public class Books {
     private int bookId;
